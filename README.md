@@ -3,7 +3,7 @@
 1. Учебный проект для отработки навыков пользования docker.
 2. Проект представляет из себя простой трекер задач упакованный в контейнеры.
 
-Tech.Stack: Python, Django, DRF, Pytest, SQLite, Djoser
+Tech.Stack: Python, Django, DRF, Pytest, SQLite, Djoser, Docker
 
 # Как запустить проект:
 
