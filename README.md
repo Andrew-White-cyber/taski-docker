@@ -7,7 +7,18 @@ Tech.Stack: Python, Django, DRF, Pytest, SQLite, Djoser, Docker
 
 # Как запустить проект:
 
-Клонировать репозиторий. В папке проекта выполнить команду:
+Клонировать репозиторий. 
+В корне проекта создать файл .env и заполнить его по образцу:
+
+```
+POSTGRES_USER=django_user
+POSTGRES_PASSWORD=mysecretpassword
+POSTGRES_DB=django
+DB_HOST=db
+DB_PORT=5432
+```
+
+В папке проекта выполнить команду:
 
 ```
 docker compose -f docker-compose.local.yml up
